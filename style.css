@@ -1,0 +1,9 @@
+.avatar img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid salmon;
+}
+
+.bg-danger, .status {
+    text-align: center;
+}
