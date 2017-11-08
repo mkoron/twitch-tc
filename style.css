@@ -22,19 +22,35 @@
 }
 
 .status {
-    padding-left: 1.8em !important; 
+    padding-left: 1.2em !important; 
+}
+
+.status span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
 }
 
 @media screen and (min-width: 60em) {
+    body {
+        background: url(https://goo.gl/oL1LMW) no-repeat center center fixed; 
+        background-size: cover;
+    }
+    
     #title {
         display: none;
     }
-
-    body {
-          background: url(https://goo.gl/oL1LMW) no-repeat center center fixed; 
-          background-size: cover;
-    }
-
+    
     .table {
         margin-top: 5em !important;
         width: 70%;
