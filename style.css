@@ -68,8 +68,7 @@ caption {
     }
     
     .table {
-        margin-top: 5em !important;
+        margin: 5em auto;
         width: 70%;
-        margin: 0 auto;
     }
 }
