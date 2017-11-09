@@ -45,15 +45,15 @@ $(function(){
 
                 if (channelsData[0].error) {
                     userRow = `<tr class="bg-danger">
-                    <th scope='row'>${rowNumber++}</th>
+                    <th scope='row' class='hidden-xm'>${rowNumber++}</th>
                     <td colspan='4'>${channelsData[0].message}</td>
                    </tr>`
                 }
 
-                else {
+                else { 
                     userRow = `<tr>
-                                <th scope='row'>${rowNumber++}</th>
-                                <td class='avatar'><img src="${avatar}"></td>
+                                <th scope='row' class='hidden-xm'>${rowNumber++}</th>
+                                <td class='avatar hidden-xm'><img src="${avatar}"></td>
                                 <td class='username'><a href="${url}" target="blank">${userName}</a></td>
                                 <td class='status '><span class='${statusColor}'></span></td>
                                 <td class='game'>${game}</td>
