@@ -1,5 +1,5 @@
 
-var users = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas","dummy_user_12789"];
+var users = ["thepetcollective", "ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas","dummy_user_12789"];
 var no_avatar_image = 'https://dummyimage.com/100x100/fff/71738f.png&text=No+user+image';
 
 
